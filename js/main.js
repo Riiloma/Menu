@@ -1,10 +1,10 @@
 const menu = document.getElementById("comida-pedida");
 const comida1 = document.getElementById("comida-primera");
-const comida2 = document.getElementById("comida-segunda")
-const comida3 = document.getElementById("comida-tercera")
-const comida4 = document.getElementById("comida-cuarta")
-const comida5 = document.getElementById("comida-quinta")
-const comida6 = document.getElementById("comida-sexta")
+const comida2 = document.getElementById("comida-segunda");
+const comida3 = document.getElementById("comida-tercera");
+const comida4 = document.getElementById("comida-cuarta");
+const comida5 = document.getElementById("comida-quinta");
+const comida6 = document.getElementById("comida-sexta");
 
 let cantidad = 0;
 
@@ -81,7 +81,7 @@ function comprar(){
         comprarProducto.disabled=true;
         location.href="../Comprado.html";
     }else{
-        
+
         location.href="../Error.html ";
     }
 }
