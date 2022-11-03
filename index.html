@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <h1>Menu</h1>
+    <p class="intruccuion">Seleccione la comida que quiera comer, abajo se le ira agregando la comida previamente seleccionada</p>
+    <div class="comida">
+        <div class="clases-comida">
+                    <button onclick="agregaruno('A')" class="comida2" id="comida-primera" value="boton">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 1</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1100</p>
+                    </button>
+
+
+                    <button onclick="agregardos('B')" class="comida2" id="comida-segunda">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 2</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1200</p>
+                    </button>
+
+
+
+                    <button onclick="agregartres('C')" class="comida2" id="comida-tercera">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 3</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1300</p>
+                    </button>
+
+
+
+                    <button onclick="agregarcuatro('D')" class="comida2" id="comida-cuarta">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 4</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1400</p>
+                    </button>
+
+
+
+                    <button onclick="agregarquinto('E')" class="comida2" id="comida-quinta">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 5</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1500</p>
+                    </button>
+
+
+
+                    <button onclick="agregarsexto('F')" class="comida2" id="comida-sexta">
+                        <img src="img/2.png" id="imagen" alt="">
+                        <p class="parrafo" id="info"><span>Nombre: </span>Comida 6</p>
+                        <p class="parrafo" id="info"><span>Precio: </span>$1600</p>
+                    </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Comida Pedida</h2>
+        <div  id="comida-pedida">
+
+        </div>
+
+        <div class="botones">
+
+            <div class="comprar boton" id="comprar">
+                <button onclick="comprar()" >Comprar</button>
+            </div>
+
+            <div class="eliminar boton">
+                <button onclick="eliminar()">Quitar</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
