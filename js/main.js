@@ -17,6 +17,9 @@ function agregaruno(a){ //boton 1
         break;
     }
     menu.appendChild(btn);
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function agregardos(b){//boton 2
@@ -28,6 +31,9 @@ function agregardos(b){//boton 2
         break;
     }
     menu.appendChild(btn)
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function agregartres(c){//boton 3
@@ -39,6 +45,9 @@ function agregartres(c){//boton 3
         break;
     }
     menu.appendChild(btn)
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function agregarcuatro(d){//boton 4
@@ -50,6 +59,9 @@ function agregarcuatro(d){//boton 4
         break;
     }
     menu.appendChild(btn)
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function agregarquinto(e){//boton 5
@@ -61,6 +73,9 @@ function agregarquinto(e){//boton 5
         break;
     }
     menu.appendChild(btn)
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function agregarsexto(f){//boton 6
@@ -72,6 +87,9 @@ function agregarsexto(f){//boton 6
         break;
     }
     menu.appendChild(btn)
+    if(cantidad > 0){
+        btn.onclick=false
+    }
 };
 
 function comprar(){
