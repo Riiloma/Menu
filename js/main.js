@@ -20,6 +20,7 @@ function agregaruno(a){ //boton 1
     if(cantidad > 0){
         btn.onclick=false
     }
+
 };
 
 function agregardos(b){//boton 2
@@ -103,7 +104,13 @@ function comprar(){
         location.href="../Error.html ";
     }
 }
-
+function eliminar(){
+    if(comida1.clicked == true){
+        console.log("funciono")
+    }else{
+        console.log("NO funciono")
+    }
+}
 function volver(){
     location.href="../index.html";
 }
