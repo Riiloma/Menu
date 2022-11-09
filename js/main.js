@@ -16,11 +16,9 @@ function agregaruno(a){ //boton 1
             console.log(++cantidad);
         break;
     }
-    menu.appendChild(btn);
-    if(cantidad > 0){
-        btn.onclick=false
-    }
-
+    const menuCopiado = menu.appendChild(btn);
+    
+    menuCopiado.removeChild(btn);
 };
 
 function agregardos(b){//boton 2
@@ -105,7 +103,7 @@ function comprar(){
     }
 }
 function eliminar(){
-    if(comida1.clicked == true){
+    if(cantidad > 0){
         console.log("funciono")
     }else{
         console.log("NO funciono")
