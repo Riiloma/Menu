@@ -17,9 +17,17 @@ function agregaruno(a){ //boton 1
         break;
     }
     const menuCopiado = menu.appendChild(btn);
+
+    if(cantidad > 0){
+        btn.onclick=false
+        
+    }
+    /*if( cantidad > 1){
+        //btn.parentNode.removeChild(btn); //POSIBLE SOLCUION, solo se puede poner 1 ves la comida
+    }*/ 
     
-    menuCopiado.removeChild(btn);
-};
+    
+}; 
 
 function agregardos(b){//boton 2
     menu.classList.add("comida-pedida");
