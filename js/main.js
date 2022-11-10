@@ -1,4 +1,14 @@
+//vaviable x
 const menu = document.getElementById("comida-pedida");
+let cantidad = 0;
+let btn1;
+let btn2;
+let btn3;
+let btn4;
+let btn5;
+let btn6;
+
+//variables comida
 const comida1 = document.getElementById("comida-primera");
 const comida2 = document.getElementById("comida-segunda");
 const comida3 = document.getElementById("comida-tercera");
@@ -6,21 +16,20 @@ const comida4 = document.getElementById("comida-cuarta");
 const comida5 = document.getElementById("comida-quinta");
 const comida6 = document.getElementById("comida-sexta");
 
-let cantidad = 0;
 
 function agregaruno(a){ //boton 1
     menu.classList.add("comida-pedida");
-    const btn = comida1.cloneNode(true);
+     let bla = btn1 = comida1.cloneNode(true);
     switch(a){
         case 'A':
-            console.log(++cantidad);
+            ++cantidad;
+            ++bla;
         break;
     }
-    const menuCopiado = menu.appendChild(btn);
+    menu.appendChild(btn1);
 
     if(cantidad > 0){
-        btn.onclick=false
-        
+        btn1.onclick=false  
     }
     /*if( cantidad > 1){
         //btn.parentNode.removeChild(btn); //POSIBLE SOLCUION, solo se puede poner 1 ves la comida
@@ -31,71 +40,71 @@ function agregaruno(a){ //boton 1
 
 function agregardos(b){//boton 2
     menu.classList.add("comida-pedida");
-    const btn = comida2.cloneNode(true)
+    btn2 = comida2.cloneNode(true)
     switch(b){
         case 'B':
-            console.log(++cantidad);
+            ++cantidad;
         break;
     }
-    menu.appendChild(btn)
+    menu.appendChild(btn2)
     if(cantidad > 0){
-        btn.onclick=false
+        btn2.onclick=false
     }
 };
 
 function agregartres(c){//boton 3
     menu.classList.add("comida-pedida");
-    const btn = comida3.cloneNode(true)
+    btn3 = comida3.cloneNode(true)
     switch(c){
         case 'C':
-            console.log(++cantidad);
+            ++cantidad;
         break;
     }
-    menu.appendChild(btn)
+    menu.appendChild(btn3)
     if(cantidad > 0){
-        btn.onclick=false
+        btn3.onclick=false
     }
 };
 
 function agregarcuatro(d){//boton 4
     menu.classList.add("comida-pedida");
-    const btn = comida4.cloneNode(true)
+    btn4 = comida4.cloneNode(true)
     switch(d){
         case 'D':
-            console.log(++cantidad);
+            ++cantidad;
         break;
     }
-    menu.appendChild(btn)
+    menu.appendChild(btn4)
     if(cantidad > 0){
-        btn.onclick=false
+        btn4.onclick=false
     }
 };
 
 function agregarquinto(e){//boton 5
     menu.classList.add("comida-pedida");
-    const btn = comida5.cloneNode(true)
+    btn5 = comida5.cloneNode(true)
     switch(e){
         case 'E':
-            console.log(++cantidad);
+            ++cantidad;
         break;
     }
-    menu.appendChild(btn)
+    menu.appendChild(btn5)
     if(cantidad > 0){
-        btn.onclick=false
+        btn5.onclick=false
     }
 };
 
 function agregarsexto(f){//boton 6
     menu.classList.add("comida-pedida");
-    const btn = comida6.cloneNode(true)
+    btn6 = comida6.cloneNode(true)
     switch(f){
         case 'F':
-            console.log(++cantidad);
+            ++cantidad;
         break;
     }
-    menu.appendChild(btn)
+    menu.appendChild(btn6)
     if(cantidad > 0){
-        btn.onclick=false
+        btn6.onclick=false
     }
 };
 
@@ -112,9 +121,11 @@ function comprar(){
 }
 function eliminar(){
     if(cantidad > 0){
-        console.log("funciono")
-    }else{
-        console.log("NO funciono")
+        console.log("funciono1")
+        btn1.parentNode.removeChild(btn1);
+    }if(cantidad > 0){
+        console.log("funciono2")
+        btn2.parentNode.removeChild(btn2);
     }
 }
 function volver(){
