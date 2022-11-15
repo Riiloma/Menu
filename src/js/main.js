@@ -119,7 +119,7 @@ function comprar(){
         location.href="../Error.html ";
     }
 }
-function eliminar(){
+/*function eliminar(){
     if(cantidad > 0){
         console.log("funciono1")
         btn1.parentNode.removeChild(btn1);
@@ -127,7 +127,7 @@ function eliminar(){
         console.log("funciono2")
         btn2.parentNode.removeChild(btn2);
     }
-}
+}*/
 function volver(){
     location.href="../index.html";
 }

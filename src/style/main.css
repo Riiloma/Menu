@@ -6,6 +6,114 @@ h1{
     text-align: center;
     font-size: 60px;
 }
+
+/*Index*/
+.nav{
+    width: auto;
+    height: 50px;
+    background-color: rgb(255, 199, 46);
+    border-radius: 15px;
+    border: rgb(153, 100, 19) solid 5px;
+}
+.nav li{
+    list-style: none;
+    margin-top: 0.7%;
+}
+.nav a{
+    font-size: 25px;
+    margin: 2%;
+    color: #000;
+    text-decoration: none;
+}
+
+.icono{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    margin-top: 5%;
+    filter: drop-shadow(-15px 8px 4px #000);
+}
+.icono img{
+    width: auto;
+    height: auto;
+    max-width: 450px;
+    max-height: 450px;
+}
+.comida-popular{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+.detalleDeLaComida{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(14, 82, 143);
+    margin: 50px;
+}
+.vitrina{
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.detalleDeLaComida2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 450px;
+    height: 550px;
+    background-color: rgba(207, 128, 37, 0.932);
+    margin: 50px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border: #000 solid 3px;
+}
+.vitrina2{
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom: 40%;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.vitrina2 img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
+.discripcionComida{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    background-color: #000;
+    margin-top: -30%;
+}
+.discripcionComida p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Fin de Index*/
+
+/*Menu Salado*/
 .intruccuion{
     text-align: center;
     font-weight: bold;
@@ -347,3 +455,4 @@ p{
     }
 
 }
+/*Fin de Menu Salado*/
