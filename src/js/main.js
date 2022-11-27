@@ -19,11 +19,11 @@ const comida6 = document.getElementById("comida-sexta");
 
 function agregaruno(a){ //boton 1
     menu.classList.add("comida-pedida");
-     let bla = btn1 = comida1.cloneNode(true);
+    btn1 = comida1.cloneNode(true);
     switch(a){
         case 'A':
             ++cantidad;
-            ++bla;
+            
         break;
     }
     menu.appendChild(btn1);

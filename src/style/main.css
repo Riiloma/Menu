@@ -23,7 +23,13 @@ h1{
     font-size: 25px;
     margin: 2%;
     color: #000;
+    transition: 0.5s;
     text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(238, 106, 12);
+    transition: 0.5s;
+    font-size: 28px;
 }
 
 .icono{
@@ -50,21 +56,39 @@ h1{
     
 }
 
-.detalleDeLaComida{
+.detalleDeLaComida {
     align-items: center;
     justify-content: center;
     text-align: center;
-    display: flex;
-    width: 350px;
-    height: 350px;
-    background-color: rgb(14, 82, 143);
+    display: block;
+    width: 450px;
+    height: 700px;
+    background-color: rgba(207, 128, 37, 0.932);
     margin: 50px;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: rgba(11, 100, 116, 0.733) solid 10px;
 }
 .vitrina{
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom: 40%;
+    position: relative;
     width: 350px;
     height: 350px;
     background-color: aliceblue;
     border-radius: 50%;
+}
+.vitrina img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .detalleDeLaComida2{
@@ -73,12 +97,14 @@ h1{
     text-align: center;
     display: block;
     width: 450px;
-    height: 550px;
+    height: 700px;
     background-color: rgba(207, 128, 37, 0.932);
     margin: 50px;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-    border: #000 solid 3px;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: rgba(11, 100, 116, 0.733) solid 10px;
 }
 .vitrina2{
     margin-top: 2%;
@@ -99,14 +125,26 @@ h1{
     max-width: 350px;
     max-height: 350px;
 }
+.nombreDelAlimento{
+    font-size: 3rem;
+    margin: 2%;
+    color: aliceblue;
+    text-decoration: none;
+}
 .discripcionComida{
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-    background-color: #000;
-    margin-top: -30%;
+    width: 390px;
+    background-color: rgba(0, 0, 0, 0.858);
+    border: yellow 1px solid;
+    margin-top: -8%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .discripcionComida p{
+    font-size: 17px;
     margin-left: 10%;
     margin-right: 10%;
 }
